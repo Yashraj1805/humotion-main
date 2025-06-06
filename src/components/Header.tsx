@@ -11,9 +11,13 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-brand rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">H</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/f47ac10b-58cc-4372-a567-0e02b2c3d479.png" 
+                alt="Humotion.AI Brain Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-navy-900">Humotion.AI</span>
           </div>

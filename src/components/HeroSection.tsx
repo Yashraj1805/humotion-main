@@ -9,8 +9,12 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Floating Logo */}
           <div className="mb-8 animate-float">
-            <div className="w-24 h-24 mx-auto bg-gradient-brand rounded-3xl flex items-center justify-center shadow-2xl animate-pulse-glow">
-              <span className="text-white font-bold text-3xl">H</span>
+            <div className="w-32 h-32 mx-auto rounded-3xl flex items-center justify-center shadow-2xl animate-pulse-glow bg-white/10 backdrop-blur-sm p-4">
+              <img 
+                src="/lovable-uploads/f47ac10b-58cc-4372-a567-0e02b2c3d479.png" 
+                alt="Humotion.AI Brain Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
 

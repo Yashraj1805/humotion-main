@@ -8,9 +8,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-brand rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">H</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/f47ac10b-58cc-4372-a567-0e02b2c3d479.png" 
+                  alt="Humotion.AI Brain Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-xl font-bold">Humotion.AI</span>
             </div>
