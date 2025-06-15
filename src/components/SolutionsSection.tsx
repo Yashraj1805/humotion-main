@@ -2,6 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Database, Cloud, Cpu, Network } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
@@ -93,7 +94,8 @@ const SolutionsSection = () => {
             size="lg" 
             className="bg-gradient-brand hover:shadow-2xl transition-all duration-300 text-white font-semibold px-8 py-4 text-lg"
           >
-            Explore All Solutions
+            <Link to="/solutions">Explore All Solutions</Link>
+            
           </Button>
         </div>
       </div>

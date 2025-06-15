@@ -2,6 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Users, Target, Lightbulb } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const values = [
   {
@@ -43,9 +44,10 @@ const AboutSection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-2 border-white text-white hover:bg-white hover:text-navy-900 font-semibold px-8 py-4"
+              className="border-2 border-white text-black hover:bg-white hover:text-navy-900 font-semibold px-8 py-4"
             >
-              Our Story
+              <Link to="/about"><span className="gradient-text">OUR</span> STORY</Link>
+             
             </Button>
           </div>
 
