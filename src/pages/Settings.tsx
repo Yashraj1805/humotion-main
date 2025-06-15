@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaUser, FaBell, FaPalette, FaLanguage, FaShieldAlt, FaLock } from 'react-icons/fa';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 
 const Settings = () => {
@@ -367,8 +366,6 @@ const Settings = () => {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };

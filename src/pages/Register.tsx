@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaUser, FaEnvelope, FaLock, FaBuilding, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { useNavigate, Link } from 'react-router-dom';
 
 const Register = () => {
@@ -307,8 +306,6 @@ const Register = () => {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
