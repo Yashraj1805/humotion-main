@@ -24,6 +24,9 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
+import EmotionalAIFuture from './pages/blog/EmotionalAIFuture';
+import NeuralEmotions from './pages/blog/NeuralEmotions';
+import AIMentalHealth from './pages/blog/AIMentalHealth';
 
 function App() {
   return (
@@ -53,6 +56,9 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/blog/emotional-ai-future" element={<EmotionalAIFuture />} />
+            <Route path="/blog/neural-emotions" element={<NeuralEmotions />} />
+            <Route path="/blog/ai-mental-health" element={<AIMentalHealth />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
         </main>

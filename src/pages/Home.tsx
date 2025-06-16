@@ -11,7 +11,7 @@ const Home = () => {
       <Header />
       
       <main className="pt-20 pb-12">
-        <div className="container mx-auto px-4">
+  <div className="container mx-auto px-4">
           {/* Hero Section */}
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
@@ -30,9 +30,9 @@ const Home = () => {
                   Transform your interactions and understand emotions like never before.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                  <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
+      <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
                   >
                     <Link 
                       to="/register" 
@@ -41,23 +41,23 @@ const Home = () => {
                       Get Started
                       <FaArrowRight className="ml-2" />
                     </Link>
-                  </motion.div>
-                  <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <Link 
+      </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Link
                       to="/about" 
                       className="inline-flex items-center justify-center px-8 py-3 bg-white/10 backdrop-blur-lg text-white rounded-xl hover:bg-white/20 transition-all duration-300 border border-white/20"
-                    >
-                      Learn More
-                    </Link>
-                  </motion.div>
-                </div>
-              </motion.div>
+            >
+              Learn More
+            </Link>
+          </motion.div>
+        </div>
+      </motion.div>
 
               {/* Logo/Image */}
-              <motion.div 
+      <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -70,10 +70,10 @@ const Home = () => {
                       alt="Humotion Pulse Logo" 
                       className="w-full h-full object-contain"
                     />
-                  </div>
+          </div>
                   <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-2xl blur-2xl -z-10"></div>
-                </div>
-              </motion.div>
+        </div>
+      </motion.div>
             </div>
 
             {/* Features Section */}
@@ -92,9 +92,9 @@ const Home = () => {
                   description: "Instant processing and analysis of emotional data with minimal latency."
                 }
               ].map((feature, index) => (
-                <motion.div
+      <motion.div
                   key={index}
-                  initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
                   className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300"
